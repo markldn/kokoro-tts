@@ -1,5 +1,14 @@
 # Kokoro TTS
 
+Update: Added API support
+How to run:
+
+pip install -r requirements.txt
+./kokoro-tts --api --port 8000 --host 0.0.0.0
+Blending voices are comma separated
+
+
+
 A CLI text-to-speech tool using the Kokoro model, supporting multiple languages, voices (with blending), and various input formats including EPUB books and PDF documents.
 
 ![ngpt-s-c](https://raw.githubusercontent.com/nazdridoy/kokoro-tts/main/previews/kokoro-tts-h.png)
