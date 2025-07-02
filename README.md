@@ -1,11 +1,13 @@
 # Kokoro TTS
 
+-----------------------------------------------
 Update: Added API support
 How to run:
 
 pip install -r requirements.txt
 ./kokoro-tts --api --port 8000 --host 0.0.0.0
 Blending voices are comma separated
+-----------------------------------------------
 
 
 
